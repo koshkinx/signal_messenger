@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>User Status</title>
+    {% load static %}
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="{% static 'messenger/status_checker.js' %}"></script>
+  </head>
+  <body>
+    <h1>User Status</h1>
+    <ul>
+      <li>User 1: <span id="user1_status"></span></li>
+      <li>User 2: <span id="user2_status"></span></li>
+      <li>User 3: <span id="user3_status"></span></li>
+      <!-- Добавьте других пользователей по аналогии -->
+    </ul>
+  </body>
+</html>
